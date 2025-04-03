@@ -1,5 +1,9 @@
 # 环境监控系统 (env_monitor)
 
+[![GitHub](https://img.shields.io/badge/github-zccccc01/env_monitor-8da0cb?style=for-the-badge&labelColor=555555&logo=github)](https://github.com/zccccc01/env_monitor)
+[![crates.io](https://img.shields.io/crates/v/env_monitor.svg?style=for-the-badge&color=fc8d62&logo=rust)](https://crates.io/crates/env_monitor)
+[![docs.rs](https://img.shields.io/badge/docs.rs-env_monitor-66c2a5?style=for-the-badge&labelColor=555555&logo=docs.rs)](https://docs.rs/env_monitor)
+
 使用 Raspberry Pi 等设备上的传感器来监控环境。它集成了 DHT11 温湿度传感器、火焰传感器和蜂鸣器。项目支持异步操作，利用 Tokio 实现并发数据读取和处理。
 
 ## 功能
