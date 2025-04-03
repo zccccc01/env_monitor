@@ -1,13 +1,11 @@
 [package]
 name = "env_monitor"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2024"
 authors = ["zccccc01 <1351688749@qq.com>"]
 description = """
-Raspberry Pi hardware interface for:
-- DHT11 temperature & humidity sensor
-- Flame detection sensor with buzzer alarm
-Provides both synchronous and async Tokio interfaces
+This crate provides a comprehensive interface for interacting with DHT11 temperature 
+& humidity sensors, flame detection sensors, and buzzers on the Raspberry Pi.
 """
 repository = "https://github.com/zccccc01/env_monitor"
 documentation = "https://docs.rs/env_monitor"
